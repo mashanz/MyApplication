@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rnest.myapplication.MainActivity"
+    android:background="#902167">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--<TextView
+            android:text="@string/salam"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="45sp"/>
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="45sp"/>
+        <TextView
+            android:text="@string/dummy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:textSize="45sp"/>
+        <TextView
+            android:text="@string/salam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:textSize="45sp"/>
+        <TextView
+            android:text="OK"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#124356"
+            android:textSize="28sp"/>-->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/index"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="162dp" />
+</android.support.constraint.ConstraintLayout>
